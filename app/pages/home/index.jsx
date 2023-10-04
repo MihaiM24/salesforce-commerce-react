@@ -8,7 +8,6 @@
 import React, {useEffect} from 'react'
 import {useIntl, FormattedMessage} from 'react-intl'
 import {useLocation} from 'react-router-dom'
-
 // Components
 import {
     Box,
@@ -44,6 +43,7 @@ import {
 } from '@salesforce/retail-react-app/app/constants'
 import {useServerContext} from '@salesforce/pwa-kit-react-sdk/ssr/universal/hooks'
 import {useProductSearch} from '@salesforce/commerce-sdk-react'
+import Youtube from '../youtube/index'
 
 /**
  * This is the home page for Retail React App.
@@ -80,7 +80,7 @@ const Home = () => {
                 description="Commerce Cloud Retail React App"
                 keywords="Commerce Cloud, Retail React App, React Storefront"
             />
-
+            <Youtube/>
             <Hero
                 title={intl.formatMessage({
                     defaultMessage: 'The React PWA Starter Store for Retail',
