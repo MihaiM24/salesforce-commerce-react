@@ -15,6 +15,7 @@ const WeatherComponent = ({ weatherData }) => {
         '80x': '#5b968b', // Clouds
     };
     
+    // Based on the documentation on openweather's API, I found the table with the ID's of the current weather so I edited the background with custom colors based on the ID returned by the API
     const getWeatherGroup = (id) => {
         if (id >= 200 && id < 300) return '2xx';
         if (id >= 300 && id < 400) return '3xx';
