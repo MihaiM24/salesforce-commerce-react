@@ -41,9 +41,9 @@ const {handler} = runtime.createHandler(options, (app) => {
             contentSecurityPolicy: {
                 useDefaults: true,
                 directives: {
-                    'img-src': ["'self'", '*.commercecloud.salesforce.com', 'data:'],
-                    'script-src': ["'self'", "'unsafe-eval'", 'storage.googleapis.com'],
-                    'connect-src': ["'self'", 'api.cquotient.com'],
+                    'img-src': ["'self'", '*.commercecloud.salesforce.com', 'api.openweathermap.org', 'openweathermap.org', 'data:'],
+                    'script-src': ["'self'", "'unsafe-eval'", 'storage.googleapis.com', 'api.openweathermap.org', 'openweathermap.org'],
+                    'connect-src': ["'self'", 'api.cquotient.com', 'api.openweathermap.org'],
 
                     // Do not upgrade insecure requests for local development
                     'upgrade-insecure-requests': isRemote() ? [] : null
