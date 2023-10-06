@@ -1,48 +1,19 @@
-# The Retail React App
+Default state: 
+![image](https://github.com/MihaiM24/salesforce-commerce-react/assets/114648141/debf5319-8bc4-4eb8-b4b2-65ffd5a7d9b9)
+Introducing random values: 
+![image](https://github.com/MihaiM24/salesforce-commerce-react/assets/114648141/f4e0365d-58ce-466e-aab1-560f6cbed460)
+![image](https://github.com/MihaiM24/salesforce-commerce-react/assets/114648141/88de98ba-7525-4fd4-9e8e-80bb930d5a96)
+Changing the operator: 
+![image](https://github.com/MihaiM24/salesforce-commerce-react/assets/114648141/85079747-00ca-4a03-b5df-7a86ede5daee)
+![image](https://github.com/MihaiM24/salesforce-commerce-react/assets/114648141/7e144643-d69d-4e13-b198-69372cde2281)
+![image](https://github.com/MihaiM24/salesforce-commerce-react/assets/114648141/af8ab78d-3d2e-431f-992f-c8616c01b773)
+![image](https://github.com/MihaiM24/salesforce-commerce-react/assets/114648141/dabe502b-8d10-48b4-99a6-7aef2e5dc7b5)
+Pressing the "Clear" button: 
+![image](https://github.com/MihaiM24/salesforce-commerce-react/assets/114648141/341636b0-5f7d-4b7c-a2b2-cea5dec86c96)
 
-A project template that includes an isomorphic JavaScript storefront and [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) built using [React](https://reactjs.org/) and [Express](https://expressjs.com/). It uses a modern headless architecture that enables developers to decouple front-end code from back-end systems. It leverages popular open-source libraries in the React ecosystem, such as [Chakra UI](https://chakra-ui.com/) components, [Emotion](https://emotion.sh/docs/introduction) (CSS-in-JS), [Webpack](https://webpack.js.org/), and many more.
 
-Developers don’t have to worry about the underlying infrastructure, whether they’re developing their app locally, deploying it to a [Managed Runtime](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/mrt-overview.html) environment, or testing the app live.
 
-## Requirements
 
--   Node 16.11 or later
--   npm 8 or later
 
-## Get Started
 
-To start your web server for local development, run the following command in your project directory:
 
-```bash
-npm start
-```
-
-Now that the development server is running, you can open a browser and preview your commerce app:
-
--   Go to http://localhost:3000/
-
-## Localization
-
-See the [Localization README.md](./translations/README.md) for important setup instructions for localization.
-
-## Configuration Files
-
-The Retail React App's configuration files are located in the `app/config` folder. For more details, see [Configuration Files](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/configuration-options.html) in the documentation.
-
-## Documentation
-
-The full documentation for PWA Kit and Managed Runtime is hosted on the [Salesforce Developers](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/overview) portal.
-
-### Useful Links:
-
--   [Get Started](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/getting-started.html)
--   [Skills for Success](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/skills-for-success.html)
--   [Set Up API Access](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/setting-up-api-access.html)
--   [Configuration Options](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/configuration-options.html)
--   [Proxy Requests](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/proxying-requests.html)
--   [Push and Deploy Bundles](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/pushing-and-deploying-bundles.html)
--   [The Retail React App](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/retail-react-app.html)
--   [Rendering](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/rendering.html)
--   [Routing](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/routing.html)
--   [Phased Headless Rollouts](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/phased-headless-rollouts.html)
--   [Launch Your Storefront](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/launching-your-storefront.html)
