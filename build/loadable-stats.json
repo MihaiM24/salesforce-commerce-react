@@ -1,16 +1,18 @@
 {
   "name": "client",
-  "hash": "564a8ba83066aec9a721",
+
+  "hash": "adb1ba462d19cdfdd145",
+
   "publicPath": "/mobify/bundle/development/",
   "outputPath": "C:\\Users\\mihai\\Desktop\\Exercitii\\PWA\\practice\\retail-react-app\\build",
   "assetsByChunkName": {
     "main": [
-      "main.js",
-      "main.3d4193a755ef42af624e.hot-update.js"
+
+      "main.js"
     ],
     "pages-home": [
-      "pages-home.js",
-      "pages-home.3d4193a755ef42af624e.hot-update.js"
+      "pages-home.js"
+
     ],
     "pages-login": [
       "pages-login.js"
@@ -48,10 +50,12 @@
     "pages-page-not-found": [
       "pages-page-not-found.js"
     ],
+
     "pages-youtube": [
       "pages-youtube.js",
       "pages-youtube.3d4193a755ef42af624e.hot-update.js"
     ],
+
     "vendor": [
       "vendor.js"
     ]
@@ -87,7 +91,9 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 1159689,
+
+      "size": 1158507,
+
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -354,7 +360,9 @@
     {
       "type": "asset",
       "name": "pages-home.js",
-      "size": 42989,
+
+      "size": 42999,
+
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -526,85 +534,6 @@
     },
     {
       "type": "asset",
-      "name": "pages-youtube.js",
-      "size": 3207,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "javascriptModule": false,
-        "related": {
-          "sourceMap": "pages-youtube.js.map"
-        }
-      },
-      "chunkNames": [
-        "pages-youtube"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 1,
-      "chunks": [
-        "pages-youtube"
-      ],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "pages-youtube.3d4193a755ef42af624e.hot-update.js",
-      "size": 3187,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "3d4193a755ef42af624e",
-        "related": {
-          "sourceMap": "pages-youtube.3d4193a755ef42af624e.hot-update.js.map"
-        }
-      },
-      "chunkNames": [
-        "pages-youtube"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 1,
-      "chunks": [
-        "pages-youtube"
-      ],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "pages-home.3d4193a755ef42af624e.hot-update.js",
-      "size": 3181,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "3d4193a755ef42af624e",
-        "related": {
-          "sourceMap": "pages-home.3d4193a755ef42af624e.hot-update.js.map"
-        }
-      },
-      "chunkNames": [
-        "pages-home"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 1,
-      "chunks": [
-        "pages-home"
-      ],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
       "name": "pages-login-redirect.js",
       "size": 3016,
       "emitted": false,
@@ -630,33 +559,7 @@
     },
     {
       "type": "asset",
-      "name": "main.3d4193a755ef42af624e.hot-update.js",
-      "size": 357,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "3d4193a755ef42af624e",
-        "related": {
-          "sourceMap": "main.3d4193a755ef42af624e.hot-update.js.map"
-        }
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 1,
-      "chunks": [
-        "main"
-      ],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
+
       "name": "_1242.js",
       "size": 284,
       "emitted": false,
@@ -677,25 +580,7 @@
         "_1242"
       ],
       "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "main.3d4193a755ef42af624e.hot-update.json",
-      "size": 57,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "3d4193a755ef42af624e"
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [],
-      "auxiliaryChunks": []
+
     }
   ],
   "namedChunkGroups": {
@@ -711,14 +596,14 @@
         },
         {
           "name": "main.js"
-        },
-        {
-          "name": "main.3d4193a755ef42af624e.hot-update.js"
+
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 3,
+
+      "filteredAuxiliaryAssets": 2,
+
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -731,14 +616,14 @@
       "assets": [
         {
           "name": "pages-home.js"
-        },
-        {
-          "name": "pages-home.3d4193a755ef42af624e.hot-update.js"
+
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 2,
+
+      "filteredAuxiliaryAssets": 1,
+
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -1022,26 +907,7 @@
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
-    },
-    "pages-youtube": {
-      "name": "pages-youtube",
-      "chunks": [
-        "pages-youtube"
-      ],
-      "assets": [
-        {
-          "name": "pages-youtube.js"
-        },
-        {
-          "name": "pages-youtube.3d4193a755ef42af624e.hot-update.js"
-        }
-      ],
-      "filteredAssets": 0,
-      "assetsSize": null,
-      "filteredAuxiliaryAssets": 2,
-      "auxiliaryAssetsSize": null,
-      "children": {},
-      "childAssets": {}
+
     }
   },
   "generator": "loadable-components",
@@ -1049,8 +915,9 @@
     {
       "id": "main",
       "files": [
-        "main.js",
-        "main.3d4193a755ef42af624e.hot-update.js"
+
+        "main.js"
+
       ]
     },
     {
@@ -1062,8 +929,9 @@
     {
       "id": "pages-home",
       "files": [
-        "pages-home.js",
-        "pages-home.3d4193a755ef42af624e.hot-update.js"
+
+        "pages-home.js"
+
       ]
     },
     {
@@ -1139,13 +1007,7 @@
       ]
     },
     {
-      "id": "pages-youtube",
-      "files": [
-        "pages-youtube.js",
-        "pages-youtube.3d4193a755ef42af624e.hot-update.js"
-      ]
-    },
-    {
+
       "id": "vendor",
       "files": [
         "vendor.js"
