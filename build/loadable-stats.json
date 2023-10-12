@@ -1,14 +1,18 @@
 {
   "name": "client",
+
   "hash": "adb1ba462d19cdfdd145",
+
   "publicPath": "/mobify/bundle/development/",
   "outputPath": "C:\\Users\\mihai\\Desktop\\Exercitii\\PWA\\practice\\retail-react-app\\build",
   "assetsByChunkName": {
     "main": [
+
       "main.js"
     ],
     "pages-home": [
       "pages-home.js"
+
     ],
     "pages-login": [
       "pages-login.js"
@@ -46,6 +50,12 @@
     "pages-page-not-found": [
       "pages-page-not-found.js"
     ],
+
+    "pages-youtube": [
+      "pages-youtube.js",
+      "pages-youtube.3d4193a755ef42af624e.hot-update.js"
+    ],
+
     "vendor": [
       "vendor.js"
     ]
@@ -81,7 +91,9 @@
     {
       "type": "asset",
       "name": "main.js",
+
       "size": 1158507,
+
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -348,7 +360,9 @@
     {
       "type": "asset",
       "name": "pages-home.js",
+
       "size": 42999,
+
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -545,6 +559,7 @@
     },
     {
       "type": "asset",
+
       "name": "_1242.js",
       "size": 284,
       "emitted": false,
@@ -565,6 +580,7 @@
         "_1242"
       ],
       "auxiliaryChunks": []
+
     }
   ],
   "namedChunkGroups": {
@@ -580,11 +596,14 @@
         },
         {
           "name": "main.js"
+
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
+
       "filteredAuxiliaryAssets": 2,
+
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -597,11 +616,14 @@
       "assets": [
         {
           "name": "pages-home.js"
+
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
+
       "filteredAuxiliaryAssets": 1,
+
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -885,6 +907,7 @@
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
+
     }
   },
   "generator": "loadable-components",
@@ -892,7 +915,9 @@
     {
       "id": "main",
       "files": [
+
         "main.js"
+
       ]
     },
     {
@@ -904,7 +929,9 @@
     {
       "id": "pages-home",
       "files": [
+
         "pages-home.js"
+
       ]
     },
     {
@@ -980,6 +1007,7 @@
       ]
     },
     {
+
       "id": "vendor",
       "files": [
         "vendor.js"
